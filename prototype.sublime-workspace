@@ -1,0 +1,429 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"font",
+				"font-variant"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"exper",
+				"experience_div"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"win",
+				"winHeight"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"rgb",
+				"rgb()"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"div_",
+				"div_header_tiny_text"
+			],
+			[
+				"pers",
+				"personal_info_div"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"wa",
+				"waypointFunc"
+			],
+			[
+				"lar",
+				"larger"
+			],
+			[
+				"remov",
+				"removeClass"
+			],
+			[
+				"con",
+				"contact_div"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"wi",
+				"winHeight"
+			],
+			[
+				"w",
+				"winHeight"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"tabe",
+				"table-cell"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"sc",
+				"scrollTop"
+			],
+			[
+				"re",
+				"removedviewattr"
+			],
+			[
+				"opa",
+				"opaque"
+			],
+			[
+				"v",
+				"viewattr"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"h",
+				"header"
+			],
+			[
+				"co",
+				"cover"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"backgro",
+				"background-image"
+			],
+			[
+				"scro",
+				"scrollToFunc"
+			],
+			[
+				"loa",
+				"loadercontainer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 247.0,
+		"last_filter": "Auto",
+		"selected_items":
+		[
+			[
+				"Auto",
+				"Toggle AutoSave: all files"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 600.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/stuff/srikanth/rsri.github.io/js/index.js",
+		"/D/stuff/srikanth/rsri.github.io/index.html",
+		"/D/stuff/srikanth/rsri.github.io/css/index.css",
+		"/D/stuff/srikanth/rsri.github.io/src/personal_info.html",
+		"/C/Users/srikaram/AppData/Roaming/Sublime Text 3/Packages/auto-save/README.md",
+		"/C/Users/srikaram/AppData/Roaming/Sublime Text 3/Packages/auto-save/auto_save.sublime-settings",
+		"/C/Users/srikaram/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/srikaram/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 50.0
+	},
+	"find_in_files":
+	{
+		"height": 138.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"exper",
+			"div",
+			"section1",
+			"ctrl+shift+r\"",
+			"\tformat\n",
+			"\t\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "prototype.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
