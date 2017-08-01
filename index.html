@@ -1,66 +1,370 @@
-<!DOCTYPE html>
-<html lang="en">
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<title>Prototype techs</title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/index.css">
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" > </script>
-<script type="text/javascript" src="js/index.js"> </script>
-<script type="text/javascript" src="js/bootstrap.min.js"> </script>
-<body>
-	<!-- Fixed navbar -->
-	<nav class="navbar navbar-inverse bg-inverse navbar-fixed-top hidden-sm hidden-xs">
-		<div class="container">
-			<div class="navbar-header">
-				<a class="navbar-brand navbar-brand-logo" href="#">
-					<img alt="Brand" class="brand-logo" src="img/logo-nav-bar.png">
-				</a>
-			</div>
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prototype tech</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
 
-			<div id="navbar" class="navbar-right">
-				<ul class="nav navmargin navbar-nav">
-					<li><a href="#"><span><img class="mail-nav-icon" src="img/mail.png"></span></a></li>
-					<li class="active"><a href="#home">HOME</a></li>
-					<li><a href="#about">ABOUT US</a></li>
-					<li><a href="#services">SERVICES</a></li>
-					<li><a href="#products">PRODUCTS</a></li>
-					<li><a href="#reachus">REACH US</a></li>
-					<li><a href="#"><span><img class="fb-nav-icon" src="img/fb.png"></span></a></li>
-					<li><a href="#"><span><img class="twitter-nav-icon" src="img/twitter.png"></span></a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-	<nav id="nav-mob" class="navbar navbar-inverse bg-inverse navbar-fixed-top visible-sm visible-xs">
-		<div class="container">
-			<div class="navbar-header">
-				<button id="navbar-toggle-btn" type="button" class="pull-left navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mob" aria-expanded="true" aria-controls="navbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<ul class="nav navmargin navbar-nav">
-					<li><a class="pull-right" href="#"><span><img class="twitter-nav-icon" src="img/twitter.png"></span></a></li>
-					<li><a class="pull-right" href="#"><span><img class="fb-nav-icon" src="img/fb.png"></span></a></li>
-					<li><a class="navbar-brand navbar-brand-logo pull-right" href="#">
-						<img alt="Brand" class="brand-logo" src="img/logo-nav-bar.png">
-					</a></li>
-					<li><a class="pull-right" href="#"><span><img class="mail-nav-icon" src="img/mail.png"></span></a></li>
-				</ul>
-			</div>
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html"><img style="width: 130px; height: 50px;" src="images/logo.png"/></a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="#one" class="scrolly">About us</a></li>
+							<li><a href="#two" class="scrolly">Software development</a>
+								<ul>
+									<li><a href="#three" class="scrolly">App development</a></li>
+									<li><a href="#four" class="scrolly">Web design</a></li>
+								</ul>
+							</li>
+							<li><a href="#five" class="scrolly">Digital marketing</a>
+								<ul>
+									<li><a href="#six" class="scrolly">Search Engine Optimization</a></li>
+									<li><a href="#seven" class="scrolly">Video Animation Marketing</a></li>
+								</ul>
+							</li>
+							<li><a href="#eight" class="scrolly">Engineering</a>
+								<ul>
+									<li><a href="#nine" class="scrolly">CAD-CAM-CAE</a></li>
+									<li><a href="#ten" class="scrolly">Automation</a></li>
+								</ul>
+							</li>
+							<li><a href="#eleven" class="scrolly">Security</a></li>
+							<li><a href="#twelve" class="scrolly">Marketing</a></li>
+							<li><a href="#fourteen" class="scrolly">Ourselves</a></li>
+							<li><a href="#fifteen" class="scrolly">Clients</a></li>
+							<li><a href="#sixteen" class="scrolly">Enquiry</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div id="overlay"></div>
+					<div class="content">
+						<header>
+							<h2>The future has landed</h2>
+							<p>And there are no hoverboards or flying cars.<br />
+							Just apps. Lots of mother flipping apps.</p>
+						</header>
+						<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img0_.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>About us</h2>
+										<p>We offer valuable serices in Web Designing & Development, Android App Development and CAD Modelling</p>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>We enjoy a good reputation of offering clients with 100% satisfaction. Prototype keeps every database confidential, offering with best quality and efficieny with the latest technologies and Tools.</p>
+								</div>
+								<div class="4u$ 12u$(medium)">
+									<p>We develop our business completely based on the quality, trustworthy servies, customer satisfaction and referral businesses.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="two" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/img1_.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Software development</h2>
+						</header>
+						<p>Prototype application development services help you address evolving business & technology challenges by defining, designing & building applications tailored to meet your business requirements. We take the best-of-technologies to develop rich, user-friendly, effective & highly secured softwares that works offline & runs off web browser. Generally called ERP and we'll customize it to you.</p>
+					</div>
+					<a href="#three" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="three" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/img2.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>App development</h2>
+						</header>
+						<p>We offer Android app development with latest tools and frameworks and bring your ideas into a new & richer platform. Our experts have developed many apps with integrates multiple layers of security with end to end secure encryption. We bring your mobile enterprise innovation into live.</p>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="four" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/img3.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Web design</h2>
+						</header>
+						<p>We provide the best custom based web designing with latest technologies compiling with both static and dynamic pages. Our skilled experts developed many websites with latest AI features. We support for both backend and frontend.</p>
+					</div>
+					<a href="#five" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="five" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img4_.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Digital marketing</h2>
+										<p>Searching the needs through internet defines the Digital World. Yes ,now we are here !. </p>
+									</header>
+								</div>
+								<div class="4u 12u$(medium)">
+									<p>Bring your websites visible to audience & drive the customers into your website. Convert the enquiry into Sales and get valuable returning customers & referrals. </p>
+								</div>
+								<div class="4u 12u$(medium)">
+								<p>We're here to help you to make it DONE !!</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#six" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="six" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/img5.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Search Engine Optimization</h2>
+						</header>
+						<p>Give your business a boost of higher organic Search Engine ranking ! The real success of the business depends on the way of keeping the clients aware on your products. We help you to raise you in page rankings of search engines. It lets clients to pick you on Priority.</p>
+					</div>
+					<a href="#seven" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="seven" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/img6.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Video Animation Marketing</h2>
+						</header>
+						<p>We're smart at art, we love to work, defines what we are... We take your business to the next level. Gear up for a newer marketing experience which is attractive, creative, scripted for you and see your business Growing ^.</p>
+					</div>
+					<a href="#eight" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="eight" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img7_.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="12u 12u$(medium)">
+									<header style="text-align: center;">
+										<h2>We now step on Engineering</h2>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#nine" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="nine" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/img8.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>CAD-CAM-CAE</h2>
+						</header>
+						<p style="margin-bottom: 0px">We offer CAD Services in Design & development, services to individuals, and companies in sectors like Manufacturing, Automotive machine tools, Industrial Automation, Process Industries, Fabrication, Health care etc.</p>
+						<ul>
+							<li>Product design & development, tools & die design</li>
+							<li>2D/3D, part modelling & assembly</li>
+							<li>Creation of assemblies & simulaton check</li>
+							<li>Design of injection moulds/dies</li>
+							<li>Sheet metal design & development</li>
+							<li>Separation of core & cavity parts</li>
+							<li>CNC Manual & CAM Programming</li>
+							<li>Structural analysis</li>
+							<li>Re-engineering</li>
+						</ul>
+					</div>
+					<a href="#ten" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="ten" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/img9.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Automation</h2>
+						</header>
+						<p>We also step on Engineering products & projects as well. We manufacture Automated Packaging Machines, Sealing Machines, Liquid Filling Machines, Shrink Wrapping Machines, Conveyors and much more. The overall durability & quality of the machines are well appreciated by our clients.We have a cross-flaw checking system, which ensures us to provide defect free products and highly skilled QC team for high class standard quality. </p>
+					</div>
+					<a href="#eleven" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="eleven" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img10_.jpg" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Security</h2>
+									</header>
+								</div>
+								<div class="8u 12u$(medium)">
+									<p>Our products are highly secured, so that the quality is defined. We also assure that every data & documents will be kept Confidential.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#twelve" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="twelve" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img11_.png" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="4u 12u$(medium)">
+									<header>
+										<h2>Marketing</h2>
+									</header>
+								</div>
+								<div class="8u 12u$(medium)">
+									<p>Make your customers a reminiscenic remembrance. Digitalize your marketing method by special effects, Music, Sound, Animation, Story-board script & much more..</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#thirteen" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="thirteen" class="spotlight style1 bottom">
+					<span class="image fit main"><img src="images/img12_.png" alt="" /></span>
+					<a href="#fourteen" class="goto-next scrolly">Next</a>
+				</section>
+
+				<section id="fourteen" class="wrapper style1 special fade-up bottom">
+					<div class="container">
+						<header class="major">
+							<h2>Ourselves</h2>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="6u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-flask"></span>
+									<h3>Mission</h3>
+									<p>Satisfying the customer needs and to provide best to them. We shall continuously attempt to improve our Quality &amp; Service by using the latest technologies available.</p>
+								</section>
+								<section class="6u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-paper-plane"></span>
+									<h3>Vision</h3>
+									<p>Providing best to the customers, leading ourselves as a top service provider, providing best to customer, satisfying needs of the customer and to bring world class products to the people.</p>
+								</section>
+							</div>
+						</div>
+					</div>
+					<a href="#fifteen" class="goto-next scrolly">Next</a>
+				</section>
+			<!-- Four -->
+				<section id="fifteen" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Clients</h2>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+								<section class="4u 6u(medium) 12u$(xsmall) client-logo-span">
+									<span class="icon alt major"><img class="client-logo" src="images/client1.png" alt="" /></span>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall) client-logo-span">
+									<span class="icon alt major"><img class="client-logo" src="images/client2.png" alt="" /></span>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall) client-logo-span">
+									<span class="icon alt major"><img class="client-logo" src="images/client3.png" alt="" /></span>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Five -->
+				<section id="sixteen" class="wrapper style2 special fade">
+					<div class="container">
+						<header class="major">
+							<h2>Enquiry</h2>
+						</header>
+						<div class="box alt">
+							<div class="row uniform" style="margin-left: 0px">
+								<section class="4u 6u(medium) 12u$(xsmall) client-logo-span">
+									<p>
+										<span style="text-decoration: underline;">Address</span>
+										<br>
+										<span>47/2, Shanthi nagar,</span><br>
+										<span>Near CoIndia</span><br>
+										<span>Avarampalayam road</span><br>
+										<span>Coimbatore-641006</span>
+									</p>
+								</section>
+								<section class="4u 6u$(medium) 12u$(xsmall) client-logo-span">
+									<p>
+										<span style="text-decoration: underline;">Phone</span>
+										<br>
+										<span>+91-9789665665</span>
+									</p>
+								</section>
+								<section class="4u$ 6u(medium) 12u$(xsmall) client-logo-span">
+									<p>
+										<span style="text-decoration: underline;">Email</span>
+										<br>
+										<span><a class="mailto-section" href="mailto:gowtham3091@gmail.com">gowtham3091@gmail.com</a></span>
+									</p>
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="#" class="icon alt fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>Copyrights 2017 &copy; Prototype</li>
+					</ul>
+				</footer>
 
 		</div>
-	</nav>
-	<div id="navbar-mob" class="nav-dropdown navbar-collapse collapse navbar-left">
-		<ul class="nav navbar-nav">
-			<li class="active"><a href="#home">HOME</a></li>
-			<li><a href="#about">ABOUT US</a></li>
-			<li><a href="#services">SERVICES</a></li>
-			<li><a href="#products">PRODUCTS</a></li>
-			<li><a href="#reachus">REACH US</a></li>
-		</ul>
-	</div>
-</body>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
